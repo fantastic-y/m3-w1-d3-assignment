@@ -1,7 +1,7 @@
 const path = require('path');
 const auth = require('http-auth');
 const basic = auth.basic({
-    file: path.join(__dirname, '../fany:{SHA}DdMg/YEdu0Vle2sCBfFOOXrwA8c='),
+    file: path.join(__dirname, '../users.htpasswd'),
 });
 const express = require('express');
 const mongoose = require('mongoose');
